@@ -8,7 +8,7 @@ body {
   font: var(--font-size) var(--font);
   color: var(--text-color);
   background: var(--bg-color);
-  padding: 10px;
+  padding: 10px 20px;
   word-break: break-word;
   max-width: 800px;
   margin: auto;
