@@ -1,0 +1,1 @@
+@font-face{font-family:'Fira Code';src:url(FiraCode-Regular.woff2) format('woff2')}:root{--font-size:18px;--font:'Fira Code',monospace;--text-color:#000;--bg-color:#fff;--theme-color:#B53471}@media (prefers-color-scheme:dark){:root{--text-color:#fff;--bg-color:#222}}
