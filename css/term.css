@@ -1,0 +1,257 @@
+@import 'theme.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: var(--font-size) var(--font);
+  color: var(--text-color);
+  background: var(--bg-color);
+  padding: 10px;
+  word-break: break-word;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+details {
+  margin: 10px 0;
+}
+
+h1, a {
+  color: var(--theme-color);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav, header {
+  background: var(--theme-color);
+  margin: 20px 0;
+}
+
+nav {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 5px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav li, nav a {
+  color: var(--bg-color);
+}
+
+header {
+  color: var(--bg-color);
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header h1, header a, nav mark, header mark {
+  color: var(--bg-color);
+}
+
+mark {
+  color: var(--theme-color);
+  background: transparent;
+  border-bottom: 1px solid var(--theme-color);
+}
+
+nav mark, header mark {
+  border-bottom: 1px solid var(--bg-color);
+}
+
+section, form {
+  padding: 10px 20px;
+}
+
+section {
+  padding: 10px 20px;
+  border-left: 1px solid var(--theme-color);
+  margin: 20px 0;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0;
+}
+
+blockquote::before, blockquote::after {
+  content: '"';
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+code {
+  color: var(--bg-color);
+  background: var(--theme-color);
+}
+
+header code, nav code {
+  color: var(--theme-color);
+  background: var(--bg-color);
+}
+
+pre {
+  color: var(--theme-color);
+  padding: 10px;
+  outline: 1px solid var(--theme-color);
+  white-space: pre-wrap;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='number'],
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='email'],
+input[type='password'],
+input[type='search'],
+input[type='url'],
+input[type='tel'],
+select,
+textarea {
+  font: var(--font-size) var(--font);
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='search'],
+input[type='url'],
+input[type='tel'],
+textarea {
+  color: var(--text-color);
+  background: transparent;
+  width: 100%;
+  border-bottom: 1px solid var(--theme-color);
+  margin-top: 10px;
+}
+
+input[type='text']:hover,
+input[type='text']:focus,
+input[type='number']:hover,
+input[type='number']:focus,
+button:hover,
+input[type='submit']:hover,
+input[type='reset']:hover,
+input[type='email']:hover,
+input[type='email']:focus,
+input[type='password']:hover,
+input[type='password']:focus,
+input[type='search']:hover,
+input[type='search']:focus,
+input[type='url']:hover,
+input[type='url']:focus,
+input[type='tel']:hover,
+input[type='tel']:focus,
+select,
+textarea:hover,
+textarea:active,
+textarea:focus {
+  outline: 1px solid var(--theme-color);
+}
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  color: var(--bg-color);
+  background: var(--theme-color);
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+button:hover,
+input[type='submit']:hover,
+input[type='reset']:hover {
+  color: var(--theme-color);
+  background: transparent;
+}
+
+button:focus,
+input[type='submit']:focus,
+input[type='reset']:focus {
+  outline: 1px dotted var(--theme-color);
+}
+
+select {
+  color: var(--theme-color);
+  background: var(--bg-color);
+}
+
+select:focus {
+  color: var(--bg-color);
+  background: var(--theme-color);
+}
+
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th {
+  color: var(--theme-color);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid var(--theme-color);
+}
+
+::selection {
+  color: var(--bg-color);
+  background: var(--text-color);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-color);
+}
