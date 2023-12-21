@@ -1,8 +1,8 @@
-# [term](https://term.sany.one)
+# [term](https://often.github.io/term/)
 a small, classless and minimalist css framework.
 
 ## usage
-head over to [this page](https://term.sany.one/usage) for more information.
+head over to [this page](https://often.github.io/term/usage) for more information.
 
 ## install
 `npm i cssterm`
